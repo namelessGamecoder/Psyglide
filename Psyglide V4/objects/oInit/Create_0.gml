@@ -1,3 +1,5 @@
+global.versionNumber = "0.0.1";
+
 InitStage = 0;
 InitTimerTotal = 0;
 InitTimer = InitTimerTotal;

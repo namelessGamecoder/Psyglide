@@ -1,5 +1,8 @@
-buttonSelect[0][0] = newButtonSprite(64,32,sPlaceholderButton,function() {uiTransition(previousUI,TRANSITION_TYPE.REVERSE_PINHOLE,4);});
-buttonSelect[1][0] = newButtonSprite(RES_W/2 - 64,RES_H/2,sPlaceholderButton,function() {global.cTextSpeed -= 0.1; global.cTextSpeed = max(global.cTextSpeed,0);});
-buttonSelect[2][0] = newButtonSprite(RES_W/2 + 64,RES_H/2,sPlaceholderButton,function() {global.cTextSpeed += 0.1; global.cTextSpeed = min(global.cTextSpeed,1);});
+buttonSelect[0][0] = newButtonSprite(RES_W - 64,RES_H - 32,sBackButton,function() {uiTransition(previousUI,TRANSITION_TYPE.REVERSE_PINHOLE,4);sfxPlay(sfxCancel);});
+buttonSelect[0][1] = newButtonSprite(108,RES_H/2 - 32,sSettingsGeneralTextSpeedButton,function() {switch(global.cTextSpeed){case(0.25): global.cTextSpeed = 0.6; break;case(0.6): global.cTextSpeed = 1;break;case(1): global.cTextSpeed = 0.25 break;}});
+
+
+x+= scrollingSpeed;
+y+= scrollingSpeed;
 
 event_inherited();

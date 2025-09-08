@@ -14,7 +14,7 @@ function saveGameSettings(){
 function loadGameSettings(){
 	var settingsGame = ssave_get(ssaveGameSettings);
 	
-	global.cTextSpeed = settingsGame.get("textSpeed",1);
+	global.cTextSpeed = settingsGame.get("textSpeed",0.6);
 }
 #endregion
 #region Video Settings

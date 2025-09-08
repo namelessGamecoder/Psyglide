@@ -1,5 +1,5 @@
 function ssaveGameSettings() : SSave("game") constructor{
-	add_value("textSpeed",SSAVE_TYPE.REAL,1);
+	add_value("textSpeed",SSAVE_TYPE.REAL,0.6);
 }
 function ssaveAudioSettings() : SSave("audio") constructor{
 	add_value("volumeMaster",SSAVE_TYPE.REAL,1);

@@ -13,4 +13,4 @@ for (var i = 0; i < rowWidth;i++){
 	}
 }
 
-buttonSelect[0][0] = newButtonSprite(64,32,sPlaceholderButton,function() {uiTransition(previousUI,TRANSITION_TYPE.WIPER,4);});
+buttonSelect[0][0] = newButtonSprite(64,32,sPlaceholderButton,function() {uiTransition(previousUI,TRANSITION_TYPE.WIPEL,4);});
