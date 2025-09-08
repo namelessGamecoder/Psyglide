@@ -1,0 +1,3 @@
+enum CALL_TYPE{
+	UI_TRANSITION,
+}

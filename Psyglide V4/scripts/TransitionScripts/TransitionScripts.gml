@@ -28,3 +28,21 @@ function uiTransition(targetUI,effectType = TRANSITION_TYPE.SHUTTER,transitionSp
 		}
 	}
 }
+
+///@desc transition between UI from a non-UI object
+///@param {Asset.GMObject} targetUI The UI to change to
+///@param {Real} effectType The transition effect to use (defaults to shutter)
+///@param {Real} transitionSpeed The speed at which the transition effect happens (default: 1)
+///@return {Undefined} Returns Nothing
+function safeUITransition(targetUI,effectType = TRANSITION_TYPE.SHUTTER,transitionSpeed = 1){
+	if (!instance_exists(opTransition)){
+		with (instance_create_depth(x,y,-999,oDummyCaller)){
+			callType = CALL_TYPE.UI_TRANSITION;
+			call = uiTransition;
+			caller = other;
+			target = targetUI;
+			type = effectType;
+			tSpeed = transitionSpeed;
+		}
+	}
+}
