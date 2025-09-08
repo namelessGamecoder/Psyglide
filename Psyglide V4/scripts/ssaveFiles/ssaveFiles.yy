@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ssaveFiles",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ssaveFiles",
+  "parent":{
+    "name":"SSave",
+    "path":"folders/Extensions/SSave.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,1 @@
+drawSpriteStrechedGUI(CurrentStageSplash,sprite_get_number(CurrentStageSplash) * (1 - (InitTimer / InitTimerTotal)));
