@@ -1,21 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oRoomTransition",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oPlayerBullet",
+  "eventList":[],
   "managed":true,
-  "name":"oRoomTransition",
+  "name":"oPlayerBullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"Backend",
-    "path":"folders/Objects/Backend.yy",
+    "name":"Player",
+    "path":"folders/Objects/Game/Player.yy",
   },
-  "parentObjectId":{
-    "name":"opTransition",
-    "path":"objects/opTransition/opTransition.yy",
-  },
-  "persistent":true,
+  "parentObjectId":null,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,

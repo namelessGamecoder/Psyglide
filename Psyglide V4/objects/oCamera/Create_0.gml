@@ -1,6 +1,6 @@
 //Camera
 cam = view_camera[0];
-follow = noone;
+follow = oPlayer;
 camWHalf = RES_W/2;
 camHHalf = RES_H/2;
 xTo = xstart;
