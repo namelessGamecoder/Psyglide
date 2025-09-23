@@ -36,8 +36,8 @@ else{
 	yTo = room_height/2;
 }
 
-x = (xTo - x) / 25;
-y = (yTo - y) / 25;
+x += (xTo - x) / 25;
+y += (yTo - y) / 25;
 
 if (!global.debugger.freecam){
 	x = clamp(x,camWHalf,room_width - camWHalf);
