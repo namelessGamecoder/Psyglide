@@ -33,3 +33,6 @@ enum RESOLUTION{
 
 pResolution = global.cResolution;
 pFullscreen = global.cFullscreen;
+
+fBackground = layer_get_id("Foreground");
+bBackground = layer_get_id("Background");

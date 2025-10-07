@@ -63,3 +63,6 @@ else{
 	overlaySprite = sNone;
 	overlayTimerTotal = 0;
 }
+
+layer_x(fBackground,x / 2);
+layer_x(bBackground,x / 4);

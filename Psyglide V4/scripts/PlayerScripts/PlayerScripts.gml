@@ -8,6 +8,7 @@ function playerStartState(){
 	}
 }
 function playerFlyingState(){
+	xspeed = 2;
 	shoot = InputPressed(INPUT_VERB.SHOOT);
 	fly = InputCheck(INPUT_VERB.FLY);
 	
