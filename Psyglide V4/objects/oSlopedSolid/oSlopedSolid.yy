@@ -9,7 +9,10 @@
     "name":"Collisions",
     "path":"folders/Objects/Collisions.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"opSolid",
+    "path":"objects/opSolid/opSolid.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

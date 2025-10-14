@@ -41,7 +41,7 @@ y += (yTo - y) / 25;
 
 if (!global.debugger.freecam){
 	x = clamp(x,camWHalf,room_width - camWHalf);
-	y = clamp(y,camHHalf,room_width - camHHalf);
+	y = clamp(y,camHHalf,room_height - camHHalf);
 }
 
 //Screenshake
