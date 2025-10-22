@@ -6,6 +6,6 @@ if (!global.stop){
 		}
 	}
 }
-if (global.pause && !(instance_exists(oPauseUI) || instance_exists(oUITransition) || instance_exists(oDummyCaller))){
+if (global.pause && !(instance_exists(opUI) || instance_exists(oUITransition) || instance_exists(oDummyCaller))){
 	global.pause = false;
 }
