@@ -8,6 +8,7 @@ function saveGameSettings(){
 	var settingsGame = ssave_get(ssaveGameSettings);
 	
 	settingsGame.set("textSpeed",global.cTextSpeed);
+	settingsGame.set("playDeathAnim",global.cPlayDeathAnim);
 	
 	settingsGame.save();
 }
@@ -15,6 +16,7 @@ function loadGameSettings(){
 	var settingsGame = ssave_get(ssaveGameSettings);
 	
 	global.cTextSpeed = settingsGame.get("textSpeed",0.6);
+	global.cPlayDeathAnim = settingsGame.get("playDeathAnim",true);
 }
 #endregion
 #region Video Settings

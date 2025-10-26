@@ -17,7 +17,8 @@ enum TRANSITION_TYPE{
 	WIPED,
 	PINHOLE,
 	REVERSE_PINHOLE,
-	FADE
+	FADE,
+	DEATHFADE
 }
 
 global.stop = true;

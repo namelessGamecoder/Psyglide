@@ -57,4 +57,9 @@ switch(type){
 		draw_rectangle(0,0,RES_W,RES_H,false);
 		drawSet(c_white,1);
 	break;
+	case(TRANSITION_TYPE.DEATHFADE):
+		drawSet(make_color_rgb(255 *  percent / 1,0,0),percent);
+		draw_rectangle(0,0,RES_W,RES_H,false);
+		drawSet(c_white,1);
+	break;
 }

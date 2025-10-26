@@ -48,7 +48,7 @@ function __InputConfigVerbs()
         InputDefineVerb(INPUT_VERB.SYSLEFT,"sysleft",[vk_left,"A"],[-gp_axislh, gp_padl]);
         InputDefineVerb(INPUT_VERB.SYSRIGHT,"sysright",[vk_right,"D"],[ gp_axislh, gp_padr]);
         InputDefineVerb(INPUT_VERB.SYSACCEPT,"sysaccept",vk_space,gp_face1);
-        InputDefineVerb(INPUT_VERB.SYSCANCEL,"syscancel",vk_backspace,gp_face2);
+        InputDefineVerb(INPUT_VERB.SYSCANCEL,"syscancel",vk_escape,gp_face2);
         InputDefineVerb(INPUT_VERB.SYSPAUSE,"syspause",vk_escape,gp_start);
 		//Platformer Verbs
         InputDefineVerb(INPUT_VERB.PUP,"pup",[vk_up,"W"],[-gp_axislv, gp_padu]);

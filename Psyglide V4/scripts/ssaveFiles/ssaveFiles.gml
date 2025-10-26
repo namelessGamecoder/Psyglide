@@ -1,5 +1,6 @@
 function ssaveGameSettings() : SSave("game") constructor{
 	add_value("textSpeed",SSAVE_TYPE.REAL,0.6);
+	add_value("playDeathAnim",SSAVE_TYPE.BOOLEAN,true);
 }
 function ssaveAudioSettings() : SSave("audio") constructor{
 	add_value("volumeMaster",SSAVE_TYPE.REAL,1);

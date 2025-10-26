@@ -12,7 +12,7 @@ drawSet(c_white,1);
 //Buttons
 for (var i = 0; i < rowWidth;i++){
 	for (var j = 0; j < coulumnHeight[i];j++){
-		drawButton(buttonSelect[i][j],(UIX == i && UIY[UIX] == j) || buttonHover[i][j]);
+		drawButton(buttonSelect[i][j],(UIX == i && UIY == j) || buttonHover[i][j]);
 	}
 }
 

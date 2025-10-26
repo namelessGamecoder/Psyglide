@@ -28,7 +28,7 @@
   ],
   "name":"sSettingsGeneralTextSpeedButton",
   "nineSlice":null,
-  "origin":4,
+  "origin":3,
   "parent":{
     "name":"Settings Buttons",
     "path":"folders/Sprites/UI/Buttons/Settings Buttons.yy",
@@ -97,7 +97,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":60,
+    "xorigin":0,
     "yorigin":8,
   },
   "swatchColours":null,

@@ -1,2 +1,2 @@
-roomTransition(room,irandom_range(TRANSITION_TYPE.SHUTTER,TRANSITION_TYPE.FADE),8);
+roomTransition(room,TRANSITION_TYPE.DEATHFADE,8);
 global.stop = false;
