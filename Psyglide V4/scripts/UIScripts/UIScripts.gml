@@ -89,3 +89,19 @@ function useButton(buttonArray){
 function drawButton(buttonArray,buttonHover){
 	draw_sprite(buttonArray[7],buttonHover,buttonArray[5],buttonArray[6]);
 }
+
+///@desc takes a x value for a button and aligns it to the left
+///@param {Real} X The x position to draw at
+///@param {Asset.GMSprite} sprite The sprite being drawn
+///@return {Real} The aligned x position
+function buttonLeftAlign(X, sprite){
+	return X + (sprite_get_width(sprite) / 2);
+}
+
+///@desc takes a x value for a button and aligns it to the left
+///@param {Real} X The x position to draw at
+///@param {Asset.GMSprite} sprite The sprite being drawn
+///@return {Real} The aligned x position
+function buttonRightAlign(X, sprite){
+	return X - (sprite_get_width(sprite) / 2);
+}
