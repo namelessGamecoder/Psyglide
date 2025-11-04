@@ -1,9 +1,10 @@
 //Put Buttons Above This
-if (InputPressed(INPUT_VERB.SYSCANCEL)){
-	script_execute(closeUI);
-}
-
 if (!global.stop){
+	
+	if (InputPressed(INPUT_VERB.SYSCANCEL)){
+		script_execute(closeUI);
+	}
+	
 	if (InputPressed(INPUT_VERB.SYSRIGHT)){UIX++;}
 	if (InputPressed(INPUT_VERB.SYSLEFT)){UIX--;}
 
