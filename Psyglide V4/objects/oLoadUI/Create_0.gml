@@ -1,6 +1,6 @@
 event_inherited();
 
-background = sNone;
+background = sTitleBackground;
 
 rowWidth = 1;
 
@@ -12,6 +12,6 @@ for (var i = 0; i < rowWidth;i++){
 	}
 }
 
-closeUI = function() {uiTransition(previousUI,TRANSITION_TYPE.WIPEL,4);};
+closeUI = function() {uiTransition(previousUI,TRANSITION_TYPE.WIPEL,4);sfxPlay(sfxCancel);};
 
-buttonSelect[0][0] = newButtonSprite(64,32,sPlaceholderButton,closeUI);
+buttonSelect[0][0] = newButtonSprite(RES_W - 64,RES_H - 32,sBackButton,closeUI);

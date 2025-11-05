@@ -19,7 +19,7 @@ for (var i = 0; i < rowWidth;i++){
 	}
 }
 
-closeUI = function(){if (room != rmTitle){uiTransition(oPauseUI,TRANSITION_TYPE.WIPER,4);}else{uiTransition(oTitleUI,TRANSITION_TYPE.WIPER,4);}settingsLeave = true;sfxPlay(sfxCancel);};
+closeUI = function(){if (room != rmTitle){uiTransitionMusChange(oPauseUI,levelGetMusic(),TRANSITION_TYPE.WIPER,4);}else{uiTransitionMusChange(oTitleUI,bgmTitleTheme,TRANSITION_TYPE.WIPER,4);}settingsLeave = true;sfxPlay(sfxCancel);};
 
 buttonSelect[3][0] = newButtonSprite(RES_W - 64,RES_H - 32,sBackButton,closeUI);
 buttonSelect[0][0] = newButtonSprite(RES_W/2 - 64,RES_H/2,sSettingsOtherButton,function(){uiTransition(oGameSettingsUI,TRANSITION_TYPE.PINHOLE,4);sfxPlay(sfxConfirm);});

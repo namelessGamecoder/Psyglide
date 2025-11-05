@@ -14,6 +14,6 @@ for (var i = 0; i < rowWidth;i++){
 	}
 }
 
-closeUI = function() {uiTransition(previousUI,TRANSITION_TYPE.WIPER,4);sfxPlay(sfxCancel);};
+closeUI = function() {if (room == rmTitle){uiTransitionMusChange(oTitleUI,bgmTitleTheme,TRANSITION_TYPE.WIPER,4)}else{uiTransitionMusChange(oPauseUI,levelGetMusic(),TRANSITION_TYPE.WIPER,4)};sfxPlay(sfxCancel);};
 
 buttonSelect[0][0] = newButtonSprite(RES_W - 64,RES_H - 32,sBackButton,closeUI);

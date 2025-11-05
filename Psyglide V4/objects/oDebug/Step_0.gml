@@ -27,6 +27,6 @@ if (active){
 		if (keyboard_check_pressed(vk_enter)){
 			roomTransition(roomHopperSelection,TRANSITION_TYPE.SHUTTER,10);
 		}
-		
 	}
+	if (keyboard_check_pressed(ord("P"))){instance_create_layer(mouse_x,mouse_y,"Particles",partBreakableBlock);}
 }

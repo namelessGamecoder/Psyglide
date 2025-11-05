@@ -6,3 +6,8 @@
 #macro STARTING_ROOM rmTitle
 
 #macro TEXT_FONT "fntPlaceholder"
+
+enum WORLDS{
+	W1,
+	W2
+}

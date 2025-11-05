@@ -17,3 +17,12 @@ function bgmPlay(bgm,immediate = false){
 		global.music.stopPlaying = true;
 	}
 }
+
+function levelGetMusic(){
+	switch (room){
+		case(rmW1Lvl1):
+			return bgmGildedRuins
+		default:
+			return bgmNoise;
+	}
+}

@@ -12,6 +12,11 @@ else if (currentMusic != nextMusic && !immediate){
 	runningMusic = VinylPlayFadeIn(nextMusic,true,global.musicVolume*global.masterVolume);
 	currentMusic = nextMusic;
 }
+
+if (global.musicVolume != currentVolume){
+	VinylSetGain(runningMusic,global.musicVolume*global.masterVolume);
+}
+
 if (stopPlaying){
 	VinylStop(runningMusic);
 	runningMusic = undefined;

@@ -1,3 +1,3 @@
-buttonSelect[0][0] = newButtonSprite(64,32,sPlaceholderButton,closeUI);
+buttonSelect[0][0] = newButtonSprite(RES_W - 64,RES_H - 32,sBackButton,closeUI);
 
 event_inherited();
