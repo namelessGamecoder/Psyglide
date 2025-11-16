@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sPinholeOverlay",
   "bboxMode":0,
   "bbox_bottom":127,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ac2f4e39-b408-4795-b274-826d4b7f418c","name":"ac2f4e39-b408-4795-b274-826d4b7f418c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ac2f4e39-b408-4795-b274-826d4b7f418c","name":"ac2f4e39-b408-4795-b274-826d4b7f418c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,8 +63,6 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
-    "seqHeight":128.0,
-    "seqWidth":128.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

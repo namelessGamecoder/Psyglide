@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sAchievementsBackground",
   "bboxMode":0,
   "bbox_bottom":67,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9d4f156b-6d43-4577-8d87-31cd39c94dcd","name":"9d4f156b-6d43-4577-8d87-31cd39c94dcd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9d4f156b-6d43-4577-8d87-31cd39c94dcd","name":"9d4f156b-6d43-4577-8d87-31cd39c94dcd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,8 +63,6 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
-    "seqHeight":68.0,
-    "seqWidth":68.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

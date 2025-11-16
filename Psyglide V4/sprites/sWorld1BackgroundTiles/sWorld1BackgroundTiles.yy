@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sWorld1BackgroundTiles",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3c12fd9d-6dfd-4170-ba86-ac8a1e1a320a","name":"3c12fd9d-6dfd-4170-ba86-ac8a1e1a320a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3c12fd9d-6dfd-4170-ba86-ac8a1e1a320a","name":"3c12fd9d-6dfd-4170-ba86-ac8a1e1a320a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,8 +63,6 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
-    "seqHeight":128.0,
-    "seqWidth":128.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

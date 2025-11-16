@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sTilesetTemplate",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dce8d49c-2825-46a7-b7fa-0539e3972802","name":"dce8d49c-2825-46a7-b7fa-0539e3972802","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dce8d49c-2825-46a7-b7fa-0539e3972802","name":"dce8d49c-2825-46a7-b7fa-0539e3972802","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,8 +63,6 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
-    "seqHeight":96.0,
-    "seqWidth":256.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sPlaceholderTextboxBackground",
   "bboxMode":0,
   "bbox_bottom":22,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a3c29a80-1043-4cf9-8145-8a5bdb597c3e","name":"a3c29a80-1043-4cf9-8145-8a5bdb597c3e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a3c29a80-1043-4cf9-8145-8a5bdb597c3e","name":"a3c29a80-1043-4cf9-8145-8a5bdb597c3e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -82,8 +82,6 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
-    "seqHeight":24.0,
-    "seqWidth":24.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

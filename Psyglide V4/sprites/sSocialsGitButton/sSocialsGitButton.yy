@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sSocialsGitButton",
   "bboxMode":0,
   "bbox_bottom":14,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0f592674-6b7e-4e1f-9f59-6bb8dc225e03","name":"0f592674-6b7e-4e1f-9f59-6bb8dc225e03","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d47a9e67-9c83-4d74-8bd8-30285c0df317","name":"d47a9e67-9c83-4d74-8bd8-30285c0df317","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0f592674-6b7e-4e1f-9f59-6bb8dc225e03","name":"0f592674-6b7e-4e1f-9f59-6bb8dc225e03","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d47a9e67-9c83-4d74-8bd8-30285c0df317","name":"d47a9e67-9c83-4d74-8bd8-30285c0df317","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -64,8 +64,6 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
-    "seqHeight":16.0,
-    "seqWidth":16.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

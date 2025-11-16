@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sLoadGameButton",
   "bboxMode":0,
   "bbox_bottom":14,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2cc682f2-9f7d-4eca-ae6c-5ea6c74ef78e","name":"2cc682f2-9f7d-4eca-ae6c-5ea6c74ef78e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ac693cc8-dc17-4b88-842f-d1b959503265","name":"ac693cc8-dc17-4b88-842f-d1b959503265","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2cc682f2-9f7d-4eca-ae6c-5ea6c74ef78e","name":"2cc682f2-9f7d-4eca-ae6c-5ea6c74ef78e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ac693cc8-dc17-4b88-842f-d1b959503265","name":"ac693cc8-dc17-4b88-842f-d1b959503265","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -64,8 +64,6 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
-    "seqHeight":16.0,
-    "seqWidth":40.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

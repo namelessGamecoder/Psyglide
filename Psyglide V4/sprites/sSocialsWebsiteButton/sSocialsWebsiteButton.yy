@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sSocialsWebsiteButton",
   "bboxMode":0,
   "bbox_bottom":14,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e8ab1f01-ddd9-4f9d-a2fc-7182e7911c52","name":"e8ab1f01-ddd9-4f9d-a2fc-7182e7911c52","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"88b6011e-74fc-47ec-82ba-1145a9268849","name":"88b6011e-74fc-47ec-82ba-1145a9268849","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e8ab1f01-ddd9-4f9d-a2fc-7182e7911c52","name":"e8ab1f01-ddd9-4f9d-a2fc-7182e7911c52","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"88b6011e-74fc-47ec-82ba-1145a9268849","name":"88b6011e-74fc-47ec-82ba-1145a9268849","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -64,8 +64,6 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
-    "seqHeight":16.0,
-    "seqWidth":16.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
