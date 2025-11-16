@@ -13,6 +13,14 @@ function playerCollisions(){
 		collide = PLAYER_COLLIDE_TYPE.DEATH
 	}
 	
+	if (place_meeting(x + xspeed,y,oBreakableBrick)){
+		while (place_empty(x + sign(xspeed),y,oBreakableBrick)){
+			x += sign(xspeed);
+		}
+		xspeed = 0;
+		collide = PLAYER_COLLIDE_TYPE.DEATH
+	}
+	
 	if (place_meeting(x + xspeed,y,oSolidTransition)){
 		while (place_empty(x + sign(xspeed),y,oSolidTransition)){
 			x += sign(xspeed);
@@ -68,6 +76,14 @@ function playerCollisions(){
 	
 	if (place_meeting(x,y + yspeed,opSolid)){
 		while (place_empty(x,y + sign(yspeed),opSolid)){
+			y += sign(yspeed);
+		}
+		yspeed = 0;
+		collide = PLAYER_COLLIDE_TYPE.DEATH
+	}
+	
+	if (place_meeting(x,y + yspeed,oBreakableBrick)){
+		while (place_empty(x,y + sign(yspeed),oBreakableBrick)){
 			y += sign(yspeed);
 		}
 		yspeed = 0;
@@ -138,6 +154,9 @@ function playerDeathState(){
 }
 function playerTPState(){
 	
+	var MT = instance_nearest(x,y,oSolidTransition);
+	roomTransition(MT.goTo,MT.transitEffect,4);
+	
 }
 function playerFlyingState(){
 	xspeed = 1.5;
@@ -152,7 +171,9 @@ function playerFlyingState(){
 	}
 	
 	if (shoot){
-		instance_create_layer(x + xspeed / 2, y, "Bullets", oPlayerBullet);
+		with (instance_create_layer(x + 8 + xspeed, y, "Bullets", oPlayerBullet)){
+			xspeed = other.xspeed + 2;
+		}
 	}
 	
 	switch (playerCollisions()){

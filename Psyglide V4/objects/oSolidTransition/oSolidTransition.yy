@@ -23,7 +23,12 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"goTo","filters":[
+        "GMRoom",
+      ],"listItems":[],"multiselect":false,"name":"goTo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rmTitle","path":"rooms/rmTitle/rmTitle.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rmTitle","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"transitEffect","filters":[],"listItems":[],"multiselect":false,"name":"transitEffect","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"TRANSITION_TYPE.FADE","varType":4,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

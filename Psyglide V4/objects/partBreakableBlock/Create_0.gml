@@ -8,7 +8,7 @@ switch (getWorld()){
 		sprite = sNone;
 	break;
 	default:
-		sprite = sNone;
+		sprite = sGRBreakableParticles;
 	break;
 }
 

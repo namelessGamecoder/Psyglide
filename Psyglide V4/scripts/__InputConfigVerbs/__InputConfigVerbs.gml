@@ -66,9 +66,9 @@ function __InputConfigVerbs()
         InputDefineVerb(INPUT_VERB.TDATTACK,"tdattack",[vk_shift,"X"],[gp_face3,gp_face4]);
         InputDefineVerb(INPUT_VERB.TDACTION,"tdaction",	[vk_space,"Z"],[gp_face1,gp_face2]);
 		//Psyglide
-		InputDefineVerb(INPUT_VERB.START,"start",[vk_space,"Z"],gp_face1);
-		InputDefineVerb(INPUT_VERB.FLY,"fly",[vk_space,"Z"],gp_face1);
-		InputDefineVerb(INPUT_VERB.SHOOT,"shoot",[mb_left,"X"],gp_face2);
+		InputDefineVerb(INPUT_VERB.START,"start",[mb_left,vk_space,"Z"],gp_face1);
+		InputDefineVerb(INPUT_VERB.FLY,"fly",[mb_left,vk_space,"Z"],gp_face1);
+		InputDefineVerb(INPUT_VERB.SHOOT,"shoot",[mb_right,"X"],gp_face2);
     }
     else //Flip A/B over on Switch
     {
