@@ -29,4 +29,5 @@ if (active){
 		}
 	}
 	if (keyboard_check_pressed(ord("P"))){instance_create_layer(mouse_x,mouse_y,"Particles",partBreakableBlock);}
+	if (keyboard_check_pressed(ord("T"))){roomTransition(rmTest,TRANSITION_TYPE.FADE,8);}
 }

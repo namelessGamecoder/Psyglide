@@ -6,6 +6,9 @@ camHHalf = RES_H/2;
 xTo = xstart;
 yTo = ystart;
 
+bosscam = false;
+boss = noone;
+
 //Overlay
 overlayColor = c_white;
 overlayAlpha = 0;

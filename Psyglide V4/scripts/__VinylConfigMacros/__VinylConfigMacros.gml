@@ -27,7 +27,7 @@
 #macro VINYL_SAFE_JSON_IMPORT  true
 
 //Whether live editing is enabled.
-#macro VINYL_LIVE_EDIT  true
+#macro VINYL_LIVE_EDIT  false
 
 //Length of moment-to-moment gain adjustments, in milliseconds
 //Choose lower values for tigher, quicker gain adjustment

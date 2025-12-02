@@ -27,6 +27,10 @@ if (global.debugger.freecam){
 	xTo += mouse_x - x;
 	yTo += mouse_y - y;
 }
+else if (bosscam && instance_exists(follow)){
+	xTo = follow.x  - ((follow.x - boss.x) / 2);
+	yTo = follow.y  - ((follow.y - boss.y) / 2);
+}
 else if (instance_exists(follow)){
 	xTo = follow.x;
 	yTo = follow.y;

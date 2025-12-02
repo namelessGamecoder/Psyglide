@@ -1,0 +1,1 @@
+iFunction = function () {}

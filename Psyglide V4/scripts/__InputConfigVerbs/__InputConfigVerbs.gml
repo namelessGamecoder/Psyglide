@@ -47,8 +47,8 @@ function __InputConfigVerbs()
         InputDefineVerb(INPUT_VERB.SYSDOWN,"sysdown",[vk_down,"S"],[ gp_axislv, gp_padd]);
         InputDefineVerb(INPUT_VERB.SYSLEFT,"sysleft",[vk_left,"A"],[-gp_axislh, gp_padl]);
         InputDefineVerb(INPUT_VERB.SYSRIGHT,"sysright",[vk_right,"D"],[ gp_axislh, gp_padr]);
-        InputDefineVerb(INPUT_VERB.SYSACCEPT,"sysaccept",vk_space,gp_face1);
-        InputDefineVerb(INPUT_VERB.SYSCANCEL,"syscancel",vk_escape,gp_face2);
+        InputDefineVerb(INPUT_VERB.SYSACCEPT,"sysaccept",[vk_space,"Z"],gp_face1);
+        InputDefineVerb(INPUT_VERB.SYSCANCEL,"syscancel",[vk_escape,"X"],gp_face2);
         InputDefineVerb(INPUT_VERB.SYSPAUSE,"syspause",vk_escape,gp_start);
 		//Platformer Verbs
         InputDefineVerb(INPUT_VERB.PUP,"pup",[vk_up,"W"],[-gp_axislv, gp_padu]);
@@ -66,9 +66,9 @@ function __InputConfigVerbs()
         InputDefineVerb(INPUT_VERB.TDATTACK,"tdattack",[vk_shift,"X"],[gp_face3,gp_face4]);
         InputDefineVerb(INPUT_VERB.TDACTION,"tdaction",	[vk_space,"Z"],[gp_face1,gp_face2]);
 		//Psyglide
-		InputDefineVerb(INPUT_VERB.START,"start",[mb_left,vk_space,"Z"],gp_face1);
-		InputDefineVerb(INPUT_VERB.FLY,"fly",[mb_left,vk_space,"Z"],gp_face1);
-		InputDefineVerb(INPUT_VERB.SHOOT,"shoot",[mb_right,"X"],gp_face2);
+		InputDefineVerb(INPUT_VERB.START,"start",[mb_left,vk_space,"Z"],gp_shoulderlb);
+		InputDefineVerb(INPUT_VERB.FLY,"fly",[mb_left,vk_space,"Z"],gp_shoulderlb);
+		InputDefineVerb(INPUT_VERB.SHOOT,"shoot",[mb_right,"X"],gp_shoulderrb);
     }
     else //Flip A/B over on Switch
     {
